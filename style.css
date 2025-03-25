@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#caixa {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;    
+}
+
+img {
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+h2, p {
+    padding: 10px;
+    text-align: center;
+}
+
